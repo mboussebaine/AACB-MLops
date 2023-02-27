@@ -86,7 +86,8 @@
     "pinnedMetrics": [],
     "yLabels": [
       "model:name",
-      "evaluationDataset:dataset-name"
+      "evaluationDataset:dataset-name",
+      "referenceDataset:dataset-name"
     ],
     "alsoDisplayedLabels": [],
     "barLabels": [
@@ -100,12 +101,13 @@
     "showConfidenceIntervals": true,
     "disabledMERunIds": []
   },
+  "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
-      "login": "sean"
+      "login": "admin"
     },
-    "lastModifiedOn": 1648074097737
+    "lastModifiedOn": 1677503099767
   },
   "creationTag": {
     "versionNumber": 0,
