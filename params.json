@@ -169,7 +169,6 @@
     "dkuProperties": []
   },
   "name": "MLOps (Tutorial) for Mustapha_Big_boss",
-  "projectStatus": "Sandbox",
   "imgPattern": 1,
   "showInitials": false,
   "metrics": {
@@ -227,11 +226,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 70,
+    "versionNumber": 71,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1677503357819
+    "lastModifiedOn": 1677503432689
   },
   "creationTag": {
     "versionNumber": 0,
@@ -247,7 +246,8 @@
     "downloads",
     "o16n",
     "tutorial",
-    "section:MLOps"
+    "section:MLOps",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
