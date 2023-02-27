@@ -51,7 +51,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "DKU_TUT_MLOPS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -166,7 +167,8 @@
     },
     "dkuProperties": []
   },
-  "name": "MLOps (Tutorial)",
+  "name": "MLOps (Tutorial) for Mustapha_admin",
+  "projectStatus": "Sandbox",
   "imgPattern": 1,
   "showInitials": false,
   "metrics": {
@@ -224,11 +226,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 68,
+    "versionNumber": 69,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1677505001530
+    "lastModifiedOn": 1677505007729
   },
   "creationTag": {
     "versionNumber": 0,
