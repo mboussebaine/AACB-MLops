@@ -84,10 +84,10 @@
     ],
     "predictionType": "BINARY_CLASSIFICATION",
     "pinnedMetrics": [],
+    "xLabel": "evaluation:date",
     "yLabels": [
       "model:name",
-      "evaluationDataset:dataset-name",
-      "referenceDataset:dataset-name"
+      "evaluationDataset:dataset-name"
     ],
     "alsoDisplayedLabels": [],
     "barLabels": [
@@ -95,7 +95,7 @@
       "model:name",
       "evaluationDataset:dataset-name"
     ],
-    "graphStyle": "LINE",
+    "graphStyle": "BAR",
     "sortColumn": "refStr",
     "sortDescending": false,
     "showConfidenceIntervals": true,
@@ -103,11 +103,11 @@
   },
   "governSyncOptOut": false,
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 15,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1677505035040
+    "lastModifiedOn": 1677505272311
   },
   "creationTag": {
     "versionNumber": 0,
