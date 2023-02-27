@@ -1,0 +1,39 @@
+{
+  "projectKey": "MLOPSTUTORIAL_CLEAN",
+  "id": "BUILD_PROJECT_MES",
+  "type": "custom_python",
+  "name": "Build_Project_MES",
+  "active": false,
+  "creationTag": {
+    "versionNumber": 30,
+    "lastModifiedBy": {
+      "login": "lucie"
+    },
+    "lastModifiedOn": 1644957844175
+  },
+  "versionTag": {
+    "versionNumber": 31,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1645611080236
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "envSelection": {
+      "envMode": "INHERIT"
+    }
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

@@ -1,0 +1,60 @@
+{
+  "type": "join",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "transactions_prepared",
+          "deps": []
+        },
+        {
+          "ref": "merchant_info_copy",
+          "deps": []
+        },
+        {
+          "ref": "cardholder_info_copy",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "transactions_joined",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "versionTag": {
+    "versionNumber": 11,
+    "lastModifiedBy": {
+      "login": "sean"
+    },
+    "lastModifiedOn": 1645080871055
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku-admin"
+    },
+    "lastModifiedOn": 1623793351027
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

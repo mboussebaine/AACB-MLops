@@ -1,0 +1,21 @@
+{
+  "tags": {
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "downloads": {},
+    "origin:sql_import": {
+      "color": "#FFD83D"
+    },
+    "imported": {
+      "color": "#263238"
+    },
+    "postgres-local": {
+      "color": "#77bec2"
+    },
+    "o16n": {},
+    "tutorial": {},
+    "section:MLOps": {},
+    "academy": {}
+  }
+}
